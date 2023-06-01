@@ -446,7 +446,7 @@ Node* deQueue()
 {
 	if (front == rear) {
 		// 큐가 비어있는 경우
-		// printf("\n....Now Queue is empty!!\n");
+		printf("\n....Now Queue is empty!!\n");
 		return NULL;
 	}
 
@@ -463,7 +463,7 @@ void enQueue(Node* aNode)
 {
 	rear = (rear + 1) % MAX_QUEUE_SIZE; // rear 값을 증가시키고, 원형 큐에서의 인덱스 조정을 수행합니다.
 	if (front == rear) {
-		// printf("\n....Now Queue is full!!\n");
+		printf("\n....Now Queue is full!!\n");
 		return;
 	}
 
