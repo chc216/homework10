@@ -58,6 +58,7 @@ void printStack();
 
 int main()
 {
+	printf("[-----[ 최 현 철 ]	[ 2022078014 ]-----]");
 	char command;
 	int key;
 	Node* head = NULL;
